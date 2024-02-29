@@ -1,0 +1,26 @@
+.service_comp{
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+.service_comp:hover{
+    background-color: rgb(223, 227, 227);
+}
+.service_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+}
+.service_detail{
+    display: flex;
+    flex-direction: column;
+}
+.service_name{
+    font-size: 18px;
+    font-weight: 600;
+    color: green;
+}
+.service_des{
+    font-size: 14px;
+}

@@ -1,0 +1,26 @@
+.services{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:1rem 0.5rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 45rem;
+}
+.service_combo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0rem 0.5rem;
+}
+.last_btn_service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 36rem;
+    background-color: rgb(206, 240, 211);
+    margin: 1rem 2rem;
+    font-size: 20px;
+    color: green;
+}

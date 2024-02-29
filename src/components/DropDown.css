@@ -1,0 +1,51 @@
+.drop{
+    display: flex;
+    position: absolute;
+    z-index: 10000;
+    align-items: flex-start;
+}
+.main_dropdown{
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+.mp{
+    padding: 1rem;
+    font-size: 18px;
+    height: 3.5rem;
+    border-bottom: 1px solid rgb(215, 219, 222);
+    background-color: white;
+}
+.search{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    font-size: 18px;
+    background-color: rgba(224, 224, 224, 0.792);
+    height: 4rem;
+    cursor: text;
+
+}
+.clothing{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.clothing:hover{
+    border-left: 3px solid rgb(38, 143, 38);
+    color: rgb(38, 143, 38);
+}
+.divider{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    font-size: 15px;
+    color:  rgb(167, 161, 161);
+    border-bottom: 1px solid rgb(235, 232, 232);
+    background-color: white;
+}
+.pages{
+    display: flex;
+    align-items: center;
+}

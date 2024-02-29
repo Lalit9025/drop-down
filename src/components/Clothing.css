@@ -1,0 +1,53 @@
+.clothing_comp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0rem 0.5rem;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 45rem;
+}
+.clothing_up{
+    display: flex;
+    flex-direction: row;
+}
+.clothing_up_left{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem 2rem;
+}
+.heading{
+    font-size: 20px;
+    color: green;
+    margin-bottom: 1rem;
+}
+.options{
+    display: flex;
+    flex-direction: column;
+}
+.option{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 13rem;
+    height: 1.5rem;
+}
+.sp{
+    color: green;
+}
+.line{
+    border: 0.7px solid rgb(217, 210, 210);
+    margin: 1rem;
+    width: 80%;
+}
+.last_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    width: 32rem;
+    background-color: rgb(206, 240, 211);
+    margin: 1rem 2rem;
+    font-size: 20px;
+    color: green;
+}
